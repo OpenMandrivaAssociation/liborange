@@ -5,7 +5,7 @@
 Summary:	Tool to extract CAB files from installers
 Name:		liborange
 Version:	0.3.2
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 # Note: linked against LGPL library libgsf
 License:	MIT
 Group:		Archiving/Other 
