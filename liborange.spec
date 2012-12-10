@@ -90,3 +90,19 @@ rm -rf %{buildroot}
 %{_libdir}/%{name}.*a
 %{_libdir}/pkgconfig/%{name}.pc
 
+
+
+%changelog
+* Sun Sep 13 2009 Thierry Vignaud <tv@mandriva.org> 0.4-2mdv2010.0
++ Revision: 438730
+- rebuild
+
+* Wed Jan 14 2009 Adam Williamson <awilliamson@mandriva.org> 0.4-1mdv2009.1
++ Revision: 329273
+- new release 0.4
+
+* Thu Jul 17 2008 Adam Williamson <awilliamson@mandriva.org> 0.3.2-2mdv2009.0
++ Revision: 237816
+- import liborange
+
+
