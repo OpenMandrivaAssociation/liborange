@@ -11,7 +11,7 @@ License:	MIT
 Group:		Archiving/Other 
 Source0:	http://downloads.sourceforge.net/synce/%{name}-%{version}.tar.gz
 Patch0:		liborange-0.3.2-underlink.patch
-URL:		http://synce.sourceforge.net/
+URL:		https://synce.sourceforge.net/
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:	libdynamite-devel
 BuildRequires:	libsynce-devel
