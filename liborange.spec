@@ -13,6 +13,11 @@ Source0:	http://downloads.sourceforge.net/synce/%{name}-%{version}.tar.gz
 Patch0:		liborange-0.3.2-underlink.patch
 URL:		https://synce.sourceforge.net/
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libdynamite-devel
 BuildRequires:	libsynce-devel
 BuildRequires:	unshield-devel
